@@ -3,6 +3,7 @@
 Welcome to the Architecture Drawings repository! This repository is dedicated to storing and managing architectural diagrams for our systems, including Oracle Cloud Infrastructure (OCI), Kubernetes environments, and Essentials.
 
 **This repository aims to:**
+
 **Centralize Documentation:** 
 Serve as the single source of truth for all architectural diagrams and related documentation.
 
