@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2024-06-26T12:57:06.427Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="4qV-irrnwj0sBRcYkG5X" version="24.6.3" type="device">
+  <diagram name="Page-1" id="nkSumR8FTilBan4ZvTwS">
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-_QbGWkIxE4l9ZyzSTJ--2" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="10" y="50" width="830" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="-_QbGWkIxE4l9ZyzSTJ--3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=3;strokeColor=#FF0000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="680" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="-_QbGWkIxE4l9ZyzSTJ--4" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF0000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="114" y="180" width="270" height="319" as="geometry" />
+        </mxCell>
+        <mxCell id="-_QbGWkIxE4l9ZyzSTJ--5" value="Oracle Cloud Infrastructure Questback" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-_QbGWkIxE4l9ZyzSTJ--6" value="Virtual Cloud Network" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FF0000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="349" y="125" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-_QbGWkIxE4l9ZyzSTJ--7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="230" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-_QbGWkIxE4l9ZyzSTJ--8" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/DNS_Private_Resolver.svg;" vertex="1" parent="1">
+          <mxGeometry x="210" y="237" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-_QbGWkIxE4l9ZyzSTJ--11" value="Resolver" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#005073;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="179" y="300" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-_QbGWkIxE4l9ZyzSTJ--13" value="MGMT_VCN_1&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontColor=#FF0000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="175" y="196" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-_QbGWkIxE4l9ZyzSTJ--35" value="DNS Request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-_QbGWkIxE4l9ZyzSTJ--14" target="-_QbGWkIxE4l9ZyzSTJ--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-_QbGWkIxE4l9ZyzSTJ--14" value="" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.server;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="223" y="400" width="44" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-_QbGWkIxE4l9ZyzSTJ--36" value="1. Lookup in attched Private Views&lt;br&gt;(mgmt.int.questback.com)" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="215" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-_QbGWkIxE4l9ZyzSTJ--38" value="2. Lookup in default Private Views&lt;br&gt;(mgmt.oraclevcn.com)" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="285" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-_QbGWkIxE4l9ZyzSTJ--39" value="3. Lookup in Forwarding rules" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="355" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-_QbGWkIxE4l9ZyzSTJ--40" value="4. Lookup on internet DNS&amp;nbsp;&lt;br&gt;(Internet resolver)" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="415" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-_QbGWkIxE4l9ZyzSTJ--42" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-_QbGWkIxE4l9ZyzSTJ--7" target="-_QbGWkIxE4l9ZyzSTJ--36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="309" y="287" as="sourcePoint" />
+            <mxPoint x="359" y="237" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-_QbGWkIxE4l9ZyzSTJ--43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.002;exitY=0.512;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-_QbGWkIxE4l9ZyzSTJ--7" target="-_QbGWkIxE4l9ZyzSTJ--38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="285" as="sourcePoint" />
+            <mxPoint x="480" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-_QbGWkIxE4l9ZyzSTJ--44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.523;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-_QbGWkIxE4l9ZyzSTJ--7" target="-_QbGWkIxE4l9ZyzSTJ--39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="295" as="sourcePoint" />
+            <mxPoint x="480" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-_QbGWkIxE4l9ZyzSTJ--46" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="-_QbGWkIxE4l9ZyzSTJ--40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="290" as="sourcePoint" />
+            <mxPoint x="470" y="372.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
