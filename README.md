@@ -7,5 +7,5 @@ Facilitate Collaboration: Provide a shared space for team members to review, upd
 Enhance Understanding: Help stakeholders understand the architecture of our systems for better decision-making and planning.
 
 Recommended Usage
-For the best experience, we recommend using the draw.io VS Code plugin to view and edit the diagrams.
+For the best experience, we recommend using the draw.io VS Code plugin to view and edit the diagrams..
 
